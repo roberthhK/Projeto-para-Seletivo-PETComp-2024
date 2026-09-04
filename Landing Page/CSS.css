@@ -1,0 +1,226 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #282828;
+    text-align: left;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Cabeçalho */
+.header {
+    background-color: #DAA520;
+    padding: 50px;
+    border-top: 25px solid #f4f4f4;
+}
+
+.header h1 {
+    font-size: 3.5em;
+    margin-bottom: 5px;
+    margin-top: 75px;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none; /* Remove o sublinhado */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.botao:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.imagem1-header {
+    float: left;
+    margin-right: 40px;
+    width: 200px;
+}
+
+.imagem2-header {
+    float: right;
+    width: 100px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.intro {
+    padding: 80px;
+    color: #282828;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+
+.intro p {
+    font-size: 1.7em;
+    margin-bottom: -100px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.data {
+    padding: 80px;
+    color: #282828;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+
+.data h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.data p {
+    font-size: 1.6em;
+    margin-bottom: -50px;
+}
+
+.imagem-data {
+    float: left;
+    margin-right: 30px;
+    width: 700px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.castelao {
+    padding: 80px;
+    color: #282828;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+
+.castelao h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+    text-align: end;
+}
+
+.castelao p {
+    font-size: 1.6em;
+}
+
+.imagem-castelao {
+    float: right;
+    margin-left: 30px;
+    width: 700px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.organização {
+    padding: 80px;
+    color: #282828;
+    background-color: #DAA520;
+    text-align: center;
+}
+
+.organização h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.colaboradores {
+    padding: 150px;
+    color: #282828;
+    background-color: #DAA520;
+    text-align: center;
+    margin-top: -250px;
+}
+
+.imagem1-colaboradores {
+    margin-left: 0px;
+    width: 275px;
+}
+
+.imagem2-colaboradores {
+    margin-left: 60px;
+    width: 275px;
+}
+
+.imagem3-colaboradores {
+    margin-left: 60px;
+    width: 275px;
+}
+
+.imagem4-colaboradores {
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 100px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.contatos {
+    padding: 10px;
+    color: #282828;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contatos h6 {
+    font-size: 1.25em;
+    margin-bottom: 5px;
+    margin-right: 80px;
+}
+
+.contatos p {
+    font-size: 1em;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+
+.imagem-contatos {
+    float: left;
+    margin-left: 20px;
+    width: 50px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.quando::after, .header::after, .castelao::after, .colaboradores::after, .contatos::after {
+    content: ""; /* Cria um conteúdo vazio */
+    display: table; /* Faz o conteúdo ser tratado como um bloco */
+    clear: both; /* Limpa a flutuação */
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
